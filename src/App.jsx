@@ -1,19 +1,21 @@
 import React from "react";
+import Theme from "./comp/ThemeToggle";
 
 const App = () => {
   return (
     <section className="bg-white dark:bg-gray-900 h-[100vh] overflow-hidden">
-      <nav className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center fle">
-        <div className="flex items-center justify-between">
-          <div>
+      <nav className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center ">
+       
+          <div className="flex">
             <a
               className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
               href="#"
             >
               Brand
             </a>
+           
           </div>
-        </div>
+          <Theme />
       </nav>
 
       <div className="container px-6 py-16 mx-auto text-center">
